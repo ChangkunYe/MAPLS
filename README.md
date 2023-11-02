@@ -1,5 +1,5 @@
 # Label Shift Estimation for Class-Imbalance Problem: A Bayesian Approach
-This is the official implementation for "Label Shift Estimation for Class-Imbalance Problem: A Bayesian Approach".
+This is the official implementation for WACV 2024 paper "Label Shift Estimation for Class-Imbalance Problem: A Bayesian Approach".
 
 If you find this repository useful or use this code in your research, please cite the following paper: 
 
