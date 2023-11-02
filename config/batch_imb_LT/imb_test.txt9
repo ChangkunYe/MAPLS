@@ -1,0 +1,6 @@
+{
+  "mode"           : "LT",
+  "order    "      : "reverse",
+  "imb_factor"     : 0.02,
+  "step_num"       : 5
+}

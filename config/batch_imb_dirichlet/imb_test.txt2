@@ -1,0 +1,7 @@
+{
+  "mode"           : "Dirichlet",
+  "order"          : "normal",
+  "dirichlet_alpha": 10.0,
+  "total_num"      : 7500,
+  "testset_num"    : 50,
+}

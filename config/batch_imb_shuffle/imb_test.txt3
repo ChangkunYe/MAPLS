@@ -1,0 +1,7 @@
+{
+  "mode"           : "LT",
+  "order    "      : "random",
+  "imb_factor"     : 0.2,
+  "step_num"       : 5,
+  "testset_num"    : 20,
+}

@@ -1,0 +1,6 @@
+{
+  "mode"           : "LT",
+  "order    "      : "normal",
+  "imb_factor"     : 0.1,
+  "step_num"       : 5
+}

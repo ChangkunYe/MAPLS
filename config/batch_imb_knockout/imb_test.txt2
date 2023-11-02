@@ -1,0 +1,6 @@
+{
+  "mode"           : "KnockOut",
+  "order"          : "normal",
+  "knockout_ratio" : 0.5,
+  "testset_num"    : 50,
+}
