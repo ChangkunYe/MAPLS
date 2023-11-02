@@ -3,7 +3,7 @@ This is the official implementation for WACV 2024 paper "Label Shift Estimation 
 
 If you find this repository useful or use this code in your research, please cite the following paper: 
 
-##Requirements
+## Requirements
 The code is written in [PyTorch](https://pytorch.org/). It is recommned to install via conda:
 ```
 conda install scipy
@@ -75,6 +75,8 @@ The "cfg_path" in "./test_script.sh" determines the type of label shift, includi
 
 
 
-##License
+## License
+Please see LICENSE
 
-##Questions?
+## Questions?
+Pleas raise issues or contact author at changkun.ye@anu.edu.au.
