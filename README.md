@@ -61,7 +61,7 @@ data
 ```
 
 ## Train the classifier
-To train the classifier from scratch, please adjust the dataset path "$data_path" and config path "cfg_path" in the bash script "./train_script" and run:
+To train the classifier from scratch, please adjust the GPU ids "CUDA_VISIBLE_DEVICES", dataset path "$data_path" and config path "$cfg_path" in the bash script "./train_script" and run:
 ```
 ./train_script.sh
 ```

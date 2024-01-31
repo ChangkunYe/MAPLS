@@ -1,7 +1,7 @@
 import os
 import argparse
 import ast
-os.environ['CUDA_VISIBLE_DEVICES'] = '0'
+# os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 # os.environ['CUDA_VISIBLE_DEVICES'] = '0,1,2,3'
 from data_loader.data_loader_wrapper import data_loader_wrapper
 from trainer import trainer
