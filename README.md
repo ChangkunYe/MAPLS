@@ -61,7 +61,7 @@ data
 ```
 
 ## Train the classifier
-To train the classifier from scratch, please adjust the GPU ids "CUDA_VISIBLE_DEVICES", dataset path "$data_path" and config path "$cfg_path" in the bash script "./train_script" and run:
+To train the classifier from scratch, please adjust the GPU ids "CUDA_VISIBLE_DEVICES", dataset path "$data_path" and config path "$cfg_path" in the bash script "./train_script.sh" and run:
 ```
 ./train_script.sh
 ```
@@ -71,11 +71,11 @@ Config examples are provided in "./config/".
 
 ## Test Label Shift Estimation Model
 
-To test existing models performance under label shift, the dataset path "$data_path" and checkpoint path "ckpt_path" in the bash script "./test_script" and run: 
+To test existing models performance under label shift, the dataset path "$data_path" and checkpoint path "$ckpt_path" in the bash script "./test_script.sh" and run: 
 ```
 ./test_script.sh
 ```
-The "cfg_path" in "./test_script.sh" determines the type of label shift, including:
+The "$cfg_path" in "./test_script.sh" determines the type of label shift, including:
 
 - "./config/batch_imb_LT": Ordered Long-Tailed Shift
 - "./config/batch_imb_shuffle": Shuffled Long-Tailed Shift
