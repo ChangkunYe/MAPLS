@@ -59,8 +59,8 @@ data
     |--Places_LT_test.txt
     |--Places_LT_val.txt
 ```
-###Special Note on ImageNet
-It is recommended to prepare ImageNet dataset with:
+
+P.S It is recommended to prepare ImageNet dataset with:
 
 Extract the training data:
 ```
