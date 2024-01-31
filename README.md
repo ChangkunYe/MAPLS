@@ -2,7 +2,16 @@
 This is the official implementation for WACV 2024 paper "Label Shift Estimation for Class-Imbalance Problem: A Bayesian Approach".
 
 If you find this repository useful or use this code in your research, please cite the following paper: 
-
+ ```
+ @InProceedings{Ye_2024_WACV,
+    author    = {Ye, Changkun and Tsuchida, Russell and Petersson, Lars and Barnes, Nick},
+    title     = {Label Shift Estimation for Class-Imbalance Problem: A Bayesian Approach},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {January},
+    year      = {2024},
+    pages     = {1073-1082}
+}
+ ```
 ## Requirements
 The code is written in [PyTorch](https://pytorch.org/). It is recommned to install via conda:
 ```
