@@ -32,11 +32,11 @@ def get_cls_weight(cfg, epoch, milestones, train_cls_num_list,
         if epoch <= cfg['label_shift']['start_epoch']:
             per_cls_weights = None
         else:
-            per_cls_weights = get_label_shift_ratio(train_probs, train_labels, val_probs, train_cls_num_list,
-                                                    py_mode=cfg['label_shift']['py_mode'],
-                                                    qy_mode=cfg['label_shift']['qy_mode'],
-                                                    qy_method=cfg['label_shift']['name'],
-                                                    max_iter=cfg['label_shift']['max_iter'])
+            per_cls_weights, _ = get_label_shift_ratio(train_probs, train_labels, val_probs, train_cls_num_list,
+                                                       py_mode=cfg['label_shift']['py_mode'],
+                                                       qy_mode=cfg['label_shift']['qy_mode'],
+                                                       qy_method=cfg['label_shift']['name'],
+                                                       max_iter=cfg['label_shift']['max_iter'])
 
             per_cls_weights = per_cls_weights / np.sum(per_cls_weights) * len(train_cls_num_list)
     else:

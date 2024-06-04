@@ -86,7 +86,7 @@ Config examples are provided in "./config/".
 
 ## Test Label Shift Estimation Model
 
-To test existing models performance under label shift, the dataset path "$data_path" and checkpoint path "$ckpt_path" in the bash script "./test_script.sh" and run: 
+To test existing models performance under label shift, adjust the dataset path "$data_path" and checkpoint path "$ckpt_path" in the bash script "./test_script.sh" and run: 
 ```
 ./test_script.sh
 ```

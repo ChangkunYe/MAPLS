@@ -143,7 +143,7 @@ def ls_metrics_eval(probs, labels,
 
 
 def get_label_shift_ratio(train_probs, train_labels, val_probs,
-                          cls_num_list, py: np.ndarray,
+                          cls_num_list, py: np.ndarray = None,
                           val_cls_num_list: List = None,
                           py_mode: str = "soft", qy_mode: str = 'soft',
                           qy_method: str = 'known', max_iter: int = 100,
@@ -151,6 +151,8 @@ def get_label_shift_ratio(train_probs, train_labels, val_probs,
     valid_methods = ['known', 'uniform', 'mlls', 'bbse', 'rlls', 'mapls', 'mapls2']
     assert qy_method in valid_methods
     cls_num = len(cls_num_list)
+    if py is None:
+        py = cls_num_list / np.sum(cls_num_list)
 
     if qy_method == 'known':
         assert val_cls_num_list is not None
